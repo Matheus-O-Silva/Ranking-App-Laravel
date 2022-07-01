@@ -12,9 +12,9 @@ Para testar o projeto, siga os passos descritos abaixo:
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/Matheus-O-Silva/ranking-app.git
+git clone https://github.com/Matheus-O-Silva/Ranking-App-Laravel.git
 ```
-
+Acesso o diretório Ranking-App-Laravel
 ```sh
 cd ranking-app
 ```
@@ -29,17 +29,17 @@ cd ranking-app
 - Configure um valor para `DB_PASSWORD` (Senha do root para o MySQL)
 - Rode o comando:
 ```sh
- `composer install`
+$ composer install
 ```
 - Rode o comando abaixo para criar a estrutura do banco
 ```sh
- `php artisan migrate`
+$ php artisan migrate
 ```
 - Rode os comandos abaixo para popular as tabelas do banco:
 ```sh
-php artisan db:seed --class=UserSeeder
-php artisan db:seed --class=ChannelSeeder
-php artisan db:seed --class=WatchedTimeSeeder
+$ php artisan db:seed --class=UserSeeder
+$ php artisan db:seed --class=ChannelSeeder
+$ php artisan db:seed --class=WatchedTimeSeeder
 ```
 ### Rodando a aplicação
 ```sh
